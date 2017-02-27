@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToCore", "ConvertToCore.csproj", "{F17CF94D-B897-4229-9F92-A9421A474FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToCoreLib", "ConvertToCoreLib\ConvertToCoreLib.csproj", "{819A7595-9D61-48B2-B014-9C3B9AB4B291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17CF94D-B897-4229-9F92-A9421A474FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17CF94D-B897-4229-9F92-A9421A474FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17CF94D-B897-4229-9F92-A9421A474FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17CF94D-B897-4229-9F92-A9421A474FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819A7595-9D61-48B2-B014-9C3B9AB4B291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819A7595-9D61-48B2-B014-9C3B9AB4B291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819A7595-9D61-48B2-B014-9C3B9AB4B291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819A7595-9D61-48B2-B014-9C3B9AB4B291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
