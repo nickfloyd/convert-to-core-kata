@@ -120,12 +120,48 @@ You are able to open up and build the solution in VIsual Studio 2017 using the n
 
 ### csproj Conversion script
 
+This script can be found [here](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1)
+
 While we are waiting for the awesome tools team to get a completed conversion tool into Visual Studio 2017 I took a stab at writing a quick script to get the job done.
+
+Keep in mind that you are using this at your own risk. Some things still need to be handled such as build task conversions and the like.
 
 #### Usage
 
-From powershell
+I suggest you use the super power of your version control to make sure you can iterate on your project and test the script.
 
-`.\ConvertToCore.ps1 'Absolute Path to where your project and sln files are'`
+This might look like:
 
+#####(1) Create a branch for your solution
+
+`git checkout -b core-conversion`
+
+#####(2) Execute the script
+
+`.\ConvertToCore.ps1 'c:\Absolute Path where your code is\'`
+
+#####(3) Review the results
+
+#####(4) Restore your branch
+
+`git clean -dfx`  
+`git reset --hard`
+
+#### Options
+
+From powershell (default)
+
+`.\ConvertToCore.ps1 'c:\Absolute Path where your code is\'`
+
+**Updating the solution (defaults to `$true`)**: This give you the option of updating your .sln file(s) `VisualStudioVersion` with either a specified version (using the parameter `VSSolutionVersion`) or using the default `15.0.26014.0`.
+
+`.\ConvertToCore.ps1 'c:\Absolute Path where your code is\' $false`
+
+**Updating the solution with a specific tooling version (defaults to `15.0.26014.0`)**
+
+`.\ConvertToCore.ps1 'c:\Absolute Path where your code is\' $true '15.0.26014.0'`
+
+**Removing the original project files (defaults to `$true`)**: This config option allows you to specify if you'd like the backups of the proj files to be deleted or if you'd like to keep them.
+
+`.\ConvertToCore.ps1 'c:\Absolute Path where your code is\' $true '15.0.26014.0' $true`
 
