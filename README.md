@@ -1,7 +1,9 @@
 # ConvertToCoreKata
 Basic Kata for converting a VS 2015 / .NET Framework project and solution to VS 2017 / .NET Core
 
-**Note:** This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/commits/solution) branch of the code that will help you as you work your way through the kata.
+**NOTE: You can skip all of the Kata stuff if you'd like and simply use the [conversion script](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1). More details on that below.**
+
+This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/commits/solution) branch of the code that will help you as you work your way through the kata.
 
 ###Kata Success
 
@@ -115,3 +117,15 @@ You are able to open up and build the solution in VIsual Studio 2017 using the n
       <PackageReference Include="Serilog" Version="2.4.0" />
   </ItemGroup>
 ```
+
+### csproj Conversion script
+
+While we are waiting for the awesome tools team to get a completed conversion tool into Visual Studio 2017 I took a stab at writing a quick script to get the job done.
+
+#### Usage
+
+From powershell
+
+`.\ConvertToCore.ps1 'Absolute Path to where your project and sln files are'`
+
+
