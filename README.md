@@ -1,4 +1,7 @@
 # ConvertToCoreKata
+
+**Kata** originally were teaching and training methods by which successful combat techniques were preserved and passed on. Practicing kata allowed a company of persons to engage in a struggle using a systematic approach, rather than as individuals in a disorderly manner. [source](https://en.wikipedia.org/wiki/Kata)
+
 Basic Kata for converting a VS 2015 / .NET Framework project and solution to VS 2017 / .NET Core
 
 **NOTE: You can skip all of the Kata stuff if you'd like and simply use the [conversion script](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1). More details on that below.**
