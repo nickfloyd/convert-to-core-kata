@@ -126,7 +126,7 @@ This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/c
   </ItemGroup>
 ```
 
-### csproj Conversion script
+## CSPROJ Conversion script
 
 This script can be found [here](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1)
 
