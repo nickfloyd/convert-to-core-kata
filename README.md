@@ -25,6 +25,9 @@ You are able to open up and build the solution in Visual Studio 2017 using the n
 
 This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/commits/solution) branch of the code that will help you as you work your way through the kata.
 
+###Kata TODOs
+
+* Need to add the final part of the conversion taking the .NET Framework targeted project and also target .NET Standard
 
 ### New csproj format
 
