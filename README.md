@@ -10,7 +10,7 @@ Basic Kata for converting a VS 2015 / .NET Framework project and solution to VS 
 
 ###Kata Success
 
-You are able to open up and build the solution in VIsual Studio 2017 using the new csproj format.
+You are able to open up and build the solution in Visual Studio 2017 using the new csproj format.
 
 ###Kata Steps
 
