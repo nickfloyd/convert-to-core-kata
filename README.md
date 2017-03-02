@@ -29,7 +29,7 @@ This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/c
 
 [Pull Request](https://github.com/nickfloyd/ConvertToCoreKata/pulls) opportunities!
 
-* Need to add the final part of the conversion taking the .NET Framework targeted project and also target .NET Standard.  Addresses https://github.com/nickfloyd/ConvertToCoreKata/issues/1{
+* Need to add the final part of the conversion taking the .NET Framework targeted project and also target .NET Standard.  Addresses [Issue 1](https://github.com/nickfloyd/ConvertToCoreKata/issues/1)
 
 ### New csproj format
 
