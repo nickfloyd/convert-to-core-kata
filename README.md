@@ -1,4 +1,4 @@
-# Convert To Core 
+# Convert To Core / VS 2017 Tooling
 
 **Kata** originally were teaching and training methods by which successful combat techniques were preserved and passed on. Practicing kata allowed a company of persons to engage in a struggle using a systematic approach, rather than as individuals in a disorderly manner. [source](https://en.wikipedia.org/wiki/Kata)
 
