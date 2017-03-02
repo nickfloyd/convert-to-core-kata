@@ -6,7 +6,6 @@ Basic Kata for converting a VS 2015 / .NET Framework project and solution to VS 
 
 **NOTE: You can skip all of the Kata stuff if you'd like and simply use the [conversion script](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1). More details on that below.**
 
-This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/commits/solution) branch of the code that will help you as you work your way through the kata.
 
 ###Kata Success
 
@@ -20,6 +19,11 @@ You are able to open up and build the solution in VIsual Studio 2017 using the n
 4. Convert the `ConvertToCoreLib.csproj` file to the new format (see below)
 5. Convert the `ConvertToCore.csproj` file to the new format (see below)
 6. Delete `packages.config` file
+
+###Kata Solution
+
+This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/commits/solution) branch of the code that will help you as you work your way through the kata.
+
 
 ### New csproj format
 
