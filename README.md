@@ -135,6 +135,13 @@ This repo contains a [solution](https://github.com/nickfloyd/ConvertToCoreKata/c
   </ItemGroup>
 ```
 
+### Additional reading on the tooling changes
+
+* [Announcing .NET Core, .NET Native and NuGet Updates in VS 2017 RC](https://blogs.msdn.microsoft.com/dotnet/2017/01/30/announcing-net-core-net-native-and-nuget-updates-in-vs-2017-rc/)
+* [dotnet repo - preview3 tools branch](https://github.com/dotnet/docs/tree/db8e3cea228e6c14fe2a546c9098910f82101925/docs/core/preview3/tools)
+* [MSBuild Reference](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reference)
+* [MSBuild Project File Schema Reference](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-project-file-schema-reference)
+
 ## CSPROJ Conversion script
 
 This script can be found [here](https://github.com/nickfloyd/ConvertToCoreKata/blob/master/ConvertToCore.ps1)
