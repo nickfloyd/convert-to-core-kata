@@ -18,8 +18,8 @@ In the following sections, you will find specific steps that help guide you to s
 
 ###Kata Steps
 
-1. Convert the solution to Visual Studio 2017 using the version: `15.0.26014.0`
-2. Convert the projects to use the Visual Studio 2017 tools version: `15`
+1. Convert the solution to Visual Studio 2017 using the version: `15.0.26014.0` - via text editor
+2. Convert the projects to use the Visual Studio 2017 tools version: `15` - via text editor
 3. Delete all `Properties/AssemblyInfo.cs` files (the new build scheme takes care of all of that for you).
 4. Convert the `ConvertToCoreLib.csproj` file to the new format (see below)
 5. Convert the `ConvertToCore.csproj` file to the new format (see below)
